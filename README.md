@@ -1,4 +1,4 @@
-#eCommercice-Website-Exemple (Not reponsible for now)
+# eCommercice-Website-Exemple (Not reponsible for now)
 
 ![image](https://github.com/user-attachments/assets/78f6d041-4a22-47f5-9aa8-0936e88a63de)
 
