@@ -152,18 +152,30 @@
 }
 
 .sectionOne-content {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-top: 50px;
 }
 
 .sectionOne-content img {
   border-radius: 10px;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  min-height: 150px;
 }
 
 .sectionOne-content h2 {
   font-size: var(--fs-24);
   margin-top: 20px;
+}
+
+@media screen and (max-width: 425px) {
+
+  .sectionOne-content h2 {
+    font-size: var(--fs-16);
+  }
 }
 
 /* !             */
